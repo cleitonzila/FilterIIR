@@ -49,10 +49,10 @@ double process_sample(struct Filter* filter, double x, double* z1, double* z2, d
 int main() {
     int i;
     double x, y;
-    struct Filter filter = {0.0001, {-1.45609, -1.298, -0.00832, -0.54915},
-        { 0.95667,  0.94521,  0.96399,  0.96724},
-        { 1.947,    1.88043,  1.97196,  1.84715},
-        {-0.96433, -0.93448, -0.97278, -0.96101}};
+    struct Filter filter = {b0, {r1, r2, r3, r4},
+        {s1, s2, s3, s4},
+        {p1, p2, p3, p4},
+        {q1, q2, q3, q4}};
     double z1[5] = {0, 0, 0, 0, 0};
     double z2[5] = {0, 0, 0, 0, 0};
     double z3[5] = {0, 0, 0, 0, 0};
