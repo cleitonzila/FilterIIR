@@ -5,7 +5,7 @@ This repository contains an implementation of an Infinite Impulse Response (IIR)
 To use the filter, you will need to create the filter using the filter structure. It gets the parameters for a fourth order filter.
 
 ## Examples
-./filter44 <audio_input.au >audio_output.au
+./iir <audio_input.au >audio_output.au
 
 ## Limitations
 The current implementation of the IIR filter is limited to fourth order filters. However, this can be easily extended to support higher order filters by modifying the iir.c file.
