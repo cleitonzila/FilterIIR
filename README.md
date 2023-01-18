@@ -5,7 +5,7 @@ This repository contains an implementation of an Infinite Impulse Response (IIR)
 To use the filter, you will need to include the iir.h and iir.c files in your project. The filter can then be initialized by calling the iir_init() function and passing in the desired filter coefficients. The filtered signal can be obtained by calling the iir_filter() function and passing in the input signal.
 
 ## Examples
-Examples of how to use the filter can be found in the examples directory. These examples demonstrate how to use the filter to remove noise from a signal and how to change the filter coefficients at runtime.
+./filter44 <audio_input.au >audio_output.au
 
 ## Limitations
 The current implementation of the IIR filter is limited to second order filters. However, this can be easily extended to support higher order filters by modifying the iir.c file.
