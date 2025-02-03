@@ -13,8 +13,4 @@ The current implementation of the IIR filter is limited to fourth order filters.
 ## Contributing
 If you would like to contribute to this project, please feel free to submit a pull request.
 
-## Authors
-Cleiton Moreira - Initial work
-## License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
 
